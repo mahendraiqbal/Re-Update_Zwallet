@@ -113,7 +113,7 @@ export default function Sidebar({ activeTab, setActiveTab, onTopUpSuccess }: Sid
           <PlusCircle />
           <span className="hidden md:inline">Top Up</span>
         </button>
-        <Link href="dashboard/profile" 
+        <Link href="/dashboard/profile" 
           className={`flex items-center space-x-2 p-2 rounded-lg ${
             activeTab === 'profile' ? 'text-blue-600 bg-blue-50' : 'text-gray-700'
           }`}
